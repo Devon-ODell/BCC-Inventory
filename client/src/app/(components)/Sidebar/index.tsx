@@ -93,7 +93,7 @@ const Sidebar = () => {
             isSidebarCollapsed ? "hidden" : "block"
           } font-extrabold text-2xl`}
         >
-          PROTOCOL
+        PROTOCOL
         </h1>
 
         <button
@@ -103,6 +103,7 @@ const Sidebar = () => {
           <Menu className="w-4 h-4" />
         </button>
       </div>
+
 
       {/* LINKS */}
       <div className="flex-grow mt-8">
@@ -143,7 +144,7 @@ const Sidebar = () => {
           isCollapsed={isSidebarCollapsed}
         />
       </div>
-
+      
       {/* FOOTER */}
       <div className={`${isSidebarCollapsed ? "hidden" : "block"} mb-10`}>
         <p className="text-center text-xs text-gray-500">&copy; 2024 Edstock</p>
