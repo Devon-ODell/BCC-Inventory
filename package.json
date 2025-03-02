@@ -4,6 +4,7 @@
     "@types/react": "^19.0.7",
     "dotenv": "^16.4.7",
     "react-redux": "^9.2.0",
-    "redux-persist": "^6.0.0"
+    "redux-persist": "^6.0.0",
+    "square": "^41.0.0"
   }
 }
